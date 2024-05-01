@@ -1,0 +1,23 @@
+header nav{
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin-right:5px;
+    
+
+}
+header nav ul li a:hover{
+   color:brown;
+}
+header nav ul li a{
+    text-decoration: none;
+    margin-right: 5px;
+    color:black;
+
+}
