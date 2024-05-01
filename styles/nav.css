@@ -2,8 +2,8 @@ header nav{
     background-color: greenyellow;
     padding: 10px;
 }
-
-ul{
+/* point to be noted */
+nav > ul{ 
     display: flex;
 }
 header nav ul li{
@@ -12,7 +12,7 @@ header nav ul li{
     
 
 }
-header nav ul li a:hover{
+header nav ul li > a:hover{
    color:brown;
 }
 header nav ul li a{
@@ -20,4 +20,21 @@ header nav ul li a{
     margin-right: 5px;
     color:black;
 
+}
+header nav .dropdown{
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+    background-color: blueviolet;
+    padding-right:30px;
+}
+header nav .dropdown li{
+    padding: 7px;
+}
+/* point to be noted */
+header nav li:hover > .dropdown{
+    display: block;
+}
+header nav .dropdown li a:hover{
+color:white;
 }
